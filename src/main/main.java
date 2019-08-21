@@ -14,6 +14,7 @@ public class main
 		while(true) {
 			Interaction.Alert("Focus", "Focus - time elapsed: "+count);
 			TimeUnit.SECONDS.sleep(20);
+			Interaction.Alert("Focus", "20s elapsed");
 			Toolkit.getDefaultToolkit().beep();
 			count+=TIMEOUT;
 			TimeUnit.MINUTES.sleep(TIMEOUT);
